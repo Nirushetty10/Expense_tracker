@@ -4,7 +4,6 @@ import Card from "../UI/Card";
 import ExpenseForm from "./ExpenseForm";
 
 const NewExpense = (props)=>{
-    const [showForm, setShowForm] = useState(false);
     const expenseSaveHandler = expense => {
         const addedExpense = {
             ...expense,
